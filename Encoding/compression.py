@@ -1,5 +1,4 @@
-#file = open("textdatasmall.txt", 'r')
-file = open("textdata.txt", 'r')
+file = open("textdatasmall.txt", 'r')
 Data = file.read()
 length = len(Data)
 char = []
