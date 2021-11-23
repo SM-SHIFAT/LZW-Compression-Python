@@ -11,3 +11,4 @@ abc
 0 1 3 4 1 2 3 5 0
 ```
 
+note: first output line converted to ASCII format. use chr(value) to return them as String.
