@@ -1,4 +1,4 @@
-file = open("textdatasmall.txt", 'r')
+file = open("input.txt", 'r')
 Data = file.read()
 length = len(Data)
 char = []
@@ -69,7 +69,7 @@ print(encodedvalue)
 
 
 
-f = open("numdata.txt", "a")
+f = open("output.txt", "a")
 for v in char:
     f.write(str(ord(v))+ " ")
 f.write("\n")
